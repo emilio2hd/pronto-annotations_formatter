@@ -1,7 +1,7 @@
-name: Main Check & Publish
+name: Pull Request Check
 
 on:
-  push:
+  pull_request:
     branches:
       - main
     paths-ignore:

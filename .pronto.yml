@@ -1,0 +1,9 @@
+all:
+  exclude:
+    - 'spec/**/*'
+github:
+  slug: prontolabs/pronto
+max_warnings: 150
+warnings_per_review: 30
+verbose: false
+runners: [rubocop]
