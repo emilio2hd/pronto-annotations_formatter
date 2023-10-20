@@ -3,7 +3,7 @@
 require_relative "lib/pronto/annotations_formatter/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "pronto-annotations_formatter"
+  spec.name          = 'pronto-annotations_formatter'
   spec.version       = Pronto::AnnotationsFormatter::VERSION
   spec.authors       = ["Emilio"]
   spec.email         = ["emilio2hd@gmail.com"]
