@@ -22,18 +22,24 @@ gem 'pronto-annotations_formatter'
 
 And then execute:
 
-    $ bundle install
+```shell
+  bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install pronto-annotations_formatter
+```shell
+  gem install pronto-annotations_formatter
+```
 
 ## Usage
 
-```
+```shell
 bundle exec pronto run -f annotations -c origin/main
 ```
+
 The command above, will print some json like this:
+
 ```json
 [
   {
@@ -57,7 +63,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/emilio2hd/pronto-annotations_formatter.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/emilio2hd/pronto-annotations_formatter>.
 
 ## License
 
