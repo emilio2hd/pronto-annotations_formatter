@@ -32,6 +32,11 @@ Or install it yourself as:
   gem install pronto-annotations_formatter
 ```
 
+> [!NOTE]
+>
+> If you are using pronto `<= v0.11.1`, please use
+> [v0.1](https://github.com/emilio2hd/pronto-annotations_formatter/releases/tag/v0.1.0)
+
 ## Usage
 
 ```shell
