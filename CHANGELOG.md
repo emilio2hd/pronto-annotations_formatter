@@ -8,3 +8,9 @@ Also, keeps compatibility with pronto versions prior to 0.11.2.
 ### New features
 
 - Create AnnotationsFormatter class and change FORMATTERS const to include the new format
+
+## 0.2.0
+
+### Changes
+
+- Use the new `registry` method to include annotations formatter and remove the monkeypatch
