@@ -11,6 +11,15 @@ jobs:
   build:
     name: Code Base Checks
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby-version:
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "3.0"
+          - "3.1"
 
     steps:
       - name: Checkout
@@ -19,8 +28,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.5
+          ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
 
       - name: Run the default task
-        run: bundle exec rake
+        run: bundle exec rspec
