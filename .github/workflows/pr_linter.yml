@@ -21,7 +21,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.4
+          ruby-version: 2.5
           bundler-cache: true
 
       - name: Run pronto
