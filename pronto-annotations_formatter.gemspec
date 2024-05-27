@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir.glob("lib/**/*.rb") + ["README.md", "CHANGELOG.md", "LICENSE"]
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rexml", ">=3.2.7"
   spec.add_dependency "pronto", ">= 0.11.2"
 
   spec.required_ruby_version = ">= 2.4"
