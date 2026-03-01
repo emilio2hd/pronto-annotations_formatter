@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake", "~> 13.2"
-gem "rspec", "~> 3.0"
+gem "rspec", "~> 3.13"
 gem "rubocop", "~> 1.7"
 
 gem "pronto-rubocop", "~> 0.11.5"
