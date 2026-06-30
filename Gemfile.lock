@@ -11,7 +11,7 @@ GEM
       public_suffix (>= 2.0.2, < 8.0)
     ast (2.4.2)
     diff-lcs (1.6.2)
-    faraday (1.10.5)
+    faraday (1.10.6)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
